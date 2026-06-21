@@ -2,12 +2,12 @@ export const projectsData = [
   {
     id: 1,
     title: "JuanVote Admin",
-    image: "/images/JVA_Admin.webp", 
+    image: "/Portfolio/images/JVA_Admin.webp", 
     
     gallery: [
-      "/images/JVA_GameMgt.webp",
-      "/images/JVA_Login.webp",
-      "/images/JVA_Reset.webp"
+      "/Portfolio/images/JVA_GameMgt.webp",
+      "/Portfolio/images/JVA_Login.webp",
+      "/Portfolio/images/JVA_Reset.webp"
     ],
     
     subtitle: "Game Control",
@@ -26,11 +26,11 @@ export const projectsData = [
   {
     id: 2,
     title: "JuanVote",
-    image: "/images/JV_Game.webp",
+    image: "/Portfolio/images/JV_Game.webp",
     
     gallery: [
-      
-      "/images/JV_Game.webp"
+
+      "/Portfolio/images/JV_Game.webp"
     ],
 
     subtitle: "Android Game",
@@ -49,11 +49,11 @@ export const projectsData = [
   {
     id: 3,
     title: "Halalan Tracker",
-    image: "/images/JVW_Website.webp",
+    image: "/Portfolio/images/JVW_Website.webp",
     gallery: [
-      "/images/JVW_Candi.webp",
-      "/images/JVW_Votes.webp",
-      "/images/JVW_Download.webp"
+      "/Portfolio/images/JVW_Candi.webp",
+      "/Portfolio/images/JVW_Votes.webp",
+      "/Portfolio/images/JVW_Download.webp"
       
     ],
     subtitle: "Real-time Stats",
@@ -72,11 +72,11 @@ export const projectsData = [
   {
     id: 4,
     title: "Ice Bound",
-    image: "/images/IB_Game.webp",
+    image: "/Portfolio/images/IB_Game.webp",
     gallery: [
-      "/images/IB_Main.webp",
-      "/images/IB_GameShowcase.webp",
-      "/images/IB_Leader.webp"
+      "/Portfolio/images/IB_Main.webp",
+      "/Portfolio/images/IB_GameShowcase.webp",
+      "/Portfolio/images/IB_Leader.webp"
     ],
 
     subtitle: "Desktop Game",
@@ -95,7 +95,7 @@ export const projectsData = [
   {
     id: 5,
     title: "Company Mapping",
-    image: "/images/RC_Map.webp",
+    image: "/Portfolio/images/RC_Map.webp",
     gallery: [
       "/images/RC_Map.webp",
     ],
@@ -115,10 +115,10 @@ export const projectsData = [
   {
     id: 6,
     title: "Frost Burn",
-    image: "/images/FB_Game.webp",
+    image: "/Portfolio/images/FB_Game.webp",
     gallery: [
-      "/images/FB_Main.webp",
-      "/images/FB_InGame.webp"
+      "/Portfolio/images/FB_Main.webp",
+      "/Portfolio/images/FB_InGame.webp"
     ],
     subtitle: "Survival Game",
     color: "#181818",
@@ -136,11 +136,11 @@ export const projectsData = [
   {
     id: 7,
     title: "Plus Size E-commerce",
-    image: "/images/PC_Main.webp",
+    image: "/Portfolio/images/PC_Main.webp",
     gallery: [
-      "/images/PC_Showcase.webp",
-      "/images/PC_Faqs.webp",
-      "/images/PC_Contact.webp"
+      "/Portfolio/images/PC_Showcase.webp",
+      "/Portfolio/images/PC_Faqs.webp",
+      "/Portfolio/images/PC_Contact.webp"
     ],
     subtitle: "Fashion Showcase",
     color: "#00b894",

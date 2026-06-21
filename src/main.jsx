@@ -1,18 +1,19 @@
 // src/main.jsx
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+// CHANGED: Import HashRouter instead of BrowserRouter
+import { HashRouter, Routes, Route } from "react-router-dom";
 import App from './App'
 import Projects from './Projects' 
 import ProjectPage from './ProjectPage'
 import About from './About.jsx'
-import Header from './Header'; // <--- 1. IMPORT HEADER HERE
+import Header from './Header'; 
 import ScrollToTop from './ScrollToTop.jsx';
 import './index.css'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <ScrollToTop />
       <Header /> 
       <Routes>
@@ -21,6 +22,6 @@ ReactDOM.createRoot(document.getElementById('root')).render(
         <Route path="/about" element={<About />} />
         <Route path="/project/:id" element={<ProjectPage />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>,
 )

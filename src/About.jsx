@@ -119,7 +119,7 @@ function About() {
               boxShadow: "15px 15px 0px rgba(0,0,0,0.05)"
             }}>
               <img 
-                src="/Portfolio/images/Minimalist.webp"
+                src="/Legacy-portfolio/images/Minimalist.webp"
                 alt="TJ Feraro"
                 style={{ width: "100%", height: "100%", objectFit: "cover" }}
               />
